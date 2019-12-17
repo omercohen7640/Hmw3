@@ -24,7 +24,7 @@ pHash ReadDictionary () {
 
 int main () {
     //read dictionary from input:
-    pHash dict = ReadDictionary;
+    pHash dict = ReadDictionary();
     if (dict == NULL) return -1;
     //print dictionary:
     if (PrintDictionary (dict) == FAIL) return -1;
